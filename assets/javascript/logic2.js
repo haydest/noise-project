@@ -77,7 +77,7 @@ window.onload = function () {
 
             //Add functions to remove the key from the connectionKeys array and the button from the button-box
 
-            var button = $(`<a>`);
+            var button = $(`<a>`).css(`margin-left`, `10px`);
             button.attr(`class`, `btn-floating btn-large waves-effect waves-light red`)
                 .attr(`id`, `play-${connectionKeys[i]}`)
                 .attr(`value`, connectionKeys[i])
